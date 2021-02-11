@@ -7,10 +7,19 @@ test("This is to create employee instance", () => {
     expect(typeof(employee)).toBe("object")
 });
 
-test("This is to check that the name, id and email returns", () => {
-    let myName = new Employee("me", 25, "me@ymail.com")
+test("This is to check that the name, id and email returns the correct type.", () => {
+    let myName = new Employee("me", 25, "me@ymail.com");
 
-    expect(typeof(myName.name).toBe("me"));
-    expect(typeof(myName.id).toBe(25));
-    expect(typeof(myName.id).toBe("me@ymail.com"));
+    expect(typeof(myName.name)).toBe("string");
+    expect(typeof(myName.id)).toBe("number");
+    expect(typeof(myName.email)).toBe("string");
 });
+
+test("This is to make sure the role is returned as Employee", () => {
+    let role = new Employee()
+
+    const newRole = role.getRole();
+    
+    expect(newRole).toBe("Employee")
+});
+
