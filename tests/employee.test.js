@@ -23,3 +23,13 @@ test("This is to make sure the role is returned as Employee", () => {
     expect(newRole).toBe("Employee")
 });
 
+test("The name should return 'Jerry'", () => {
+    let name = "jerry";
+
+    let employee = new Employee(name);
+
+    expect(employee.getName()).toBe(name);
+
+
+})
+

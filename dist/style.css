@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-body{
-    background-color: red;
-}
+
 *{
     box-sizing: border-box;
 }
 
 body{
-    background-color: white;
+    background-color: rgb(94, 22, 22);
     font-family: "Roboto", sans-serif;
     display: flex;
     flex-direction: column;
@@ -17,7 +15,8 @@ body{
 }
 
 h1{
-    align-text: center;
+    /* align-text: center; */
+    color: white;
 }
 
 h5{
@@ -54,9 +53,9 @@ h6{
 
 .box h6{
     color: white;
-    font-size: 45px;
+    font-size: 20px;
     float: left;
-    margin-left: 10px
+    margin-left: 10px;
 }
 
 .box h5{

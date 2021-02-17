@@ -1,10 +1,25 @@
-// const { test, expect } = require("@jest/globals");
-// const Engineer = require("../lib/engineer");
-// const Employee = require("../lib/employee")
+const { test, expect } = require("@jest/globals");
 
-// test("Check to see if employee info went to engineer", () => {
-//     let newEmployee = new Employee("cary", 26, "cary@ymail.com");
-//     let newEngineer = new Engineer();
+const Engineer = require("../lib/engineer.js");
+
+test("This is to create employee instance", () => {
+    let engineer = new Engineer()
+
+    expect(typeof(engineer)).toBe("object")
+});
+
+test("This makes sure that the return for the github is a name", () =>{
+    let name = "john"
+
+    let hub = new Engineer(name)
+
+    expect(engineer.getGitHub().toBe(name))
+});
+
+test("this makes sure the role returned is 'engineer'", () => {
+    let role = new Engineer()
+
+    const newRole = role.getRole();
     
-//     newEngineer.
-// });
+    expect(newRole).toBe("Engineer")
+})
