@@ -10,4 +10,4 @@
   
 The user begins by opening up their terminal.  Here they type in "node index.js".
 
-![This is the node index.js picture]{
+![This is the node index.js picture]{https://github.com/AnthonyRSpyker/Team_builder/blob/main/images/Screen%20Shot%202021-02-17%20at%2010.10.45%20PM.png}
