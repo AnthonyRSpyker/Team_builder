@@ -66,17 +66,16 @@ function manager(managers){
     for (var i=0; i<managers.length; i++){
         return `<div class="box">
         <div class="card-body">
-        <h5 class="card-title">${managers[i].name}</h5>
+        <h5 class="card-title">${managers.name}</h5>
         <h6 class="card-subtitle mb-2"><i class="fas fa-mug-hot"></i> Mananger</h6><br>
         <br>
-        <a> ID: ${managers[i].id} </a><br>
-        <a href="#" class="card-link">${managers[i].email}</a><br>
-        <a> Office Number: ${managers[i].officeNumber}</a><br>
+        <a> ID: ${managers.id} </a><br>
+        <a href="#" class="card-link">${managers.email}</a><br>
+        <a> Office Number: ${managers.officeNumber}</a><br>
         </div>
         </div>`
-
     }
-}
+ 
 
 function engineer(engineers){
     for (var i=0; i<engineers.length; i++){

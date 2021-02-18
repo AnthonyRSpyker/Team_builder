@@ -30,6 +30,5 @@ test("The name should return 'Jerry'", () => {
 
     expect(employee.getName()).toBe(name);
 
-
-})
+});
 

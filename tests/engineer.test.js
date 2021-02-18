@@ -11,9 +11,9 @@ test("This is to create employee instance", () => {
 test("This makes sure that the return for the github is a name", () =>{
     let name = "john"
 
-    let hub = new Engineer(name)
+    let hub = new Engineer("anthony", 4, "anhtony", name)
 
-    expect(engineer.getGitHub().toBe(name))
+    expect(hub.getGithub()).toBe("https://github.com/" + name)
 });
 
 test("this makes sure the role returned is 'engineer'", () => {
