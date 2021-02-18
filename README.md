@@ -16,4 +16,19 @@ Next the user will be prompted with a series of questions as to a name, an emplo
 
 ![this is the questions picture](./images/3.png)
 
+the user will be given options as to describe the employees position (manager, engineer or intern).  Once that question is answered a dynamic question will be asked depending on what position the user entered.  That is, a manager will be asked for there manager number, the engineer will be asked for their github page, and the intern will be asked what school they go to.  
+
+![this is a dynamic question for a manager](./images/4.png)
+
+The user will then be prompt if they have any more employees they want to enter.  The following images show what it looks like when an alternate question in answered.
+
+![this is an image of the engineer info](./images/5.png)
+![more of the same](.images/6.png)
+![more of the same](.images/7.png)
+![more of the same](.images/8.png)
+Below we see the html that was dynamically rendered from the end of the infromation request.
+![more of the same](.images/9.png)
+Finally we see the dynamically rendered web page from the html.
+![more of the same](.images/10.png)
+
 
