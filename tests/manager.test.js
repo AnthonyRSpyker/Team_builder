@@ -15,3 +15,13 @@ test("this makes sure the role returned is 'engineer'", () => {
     
     expect(newRole).toBe("Manager")
 })
+
+test("When a school is entered a string school is returned", () => {
+    let number = 6;
+
+    let s = new Manager("anthony", 5, "that mail", number)
+    
+    const managerNumber = s.getOfficeNumber();
+
+    expect(managerNumber).toBe(number)
+})

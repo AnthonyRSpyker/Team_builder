@@ -63,23 +63,30 @@ const questions = [
 ]
 
 function manager(managers){
+    var managerString = ""
+
     for (var i=0; i<managers.length; i++){
-        return `<div class="box">
+        managerString += `<div class="box">
         <div class="card-body">
-        <h5 class="card-title">${managers.name}</h5>
+        <h5 class="card-title">${managers[i].name}</h5>
         <h6 class="card-subtitle mb-2"><i class="fas fa-mug-hot"></i> Mananger</h6><br>
         <br>
-        <a> ID: ${managers.id} </a><br>
-        <a href="#" class="card-link">${managers.email}</a><br>
-        <a> Office Number: ${managers.officeNumber}</a><br>
+        <a> ID: ${managers[i].id} </a><br>
+        <a href="#" class="card-link">${managers[i].email}</a><br>
+        <a> Office Number: ${managers[i].officeNumber}</a><br>
         </div>
         </div>`
     }
+    return managerString
+}
+
+
  
 
 function engineer(engineers){
+    engineerString = ""
     for (var i=0; i<engineers.length; i++){
-        return `<div class="box">
+        engineerString += `<div class="box">
         <div class="card-body">
         <h5 class="card-title">${engineers[i].name}</h5>
         <h6 class="card-subtitle mb-2"><i class="fas fa-mug-hot"></i> Engineer</h6><br>
@@ -90,11 +97,13 @@ function engineer(engineers){
         </div>
         </div>`
     }
+    return engineerString
 }
 
 function intern(interns){
+    let internString = ""
     for (var i=0; i<interns.length; i++){
-        return `<div class="box">
+        internString += `<div class="box">
         <div class="card-body">
         <h5 class="card-title">${interns[i].name}</h5>
         <h6 class="card-subtitle mb-2"><i class="fas fa-mug-hot"></i> Intern</h6><br>
@@ -104,7 +113,8 @@ function intern(interns){
         <a> School: ${interns[i].school} </a><br>
         </div>
         </div>`
-    }
+    };
+    return internString;
 }
 
 function init(){

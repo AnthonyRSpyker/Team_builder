@@ -11,7 +11,7 @@ test("This is to create employee instance", () => {
 test("When a school is entered a string school is returned", () => {
     let school = "harvard"
 
-    let s = new Intern(school)
+    let s = new Intern("anthony", 5, "that mail", school)
     
     const internSchool = s.getSchool();
 
