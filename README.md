@@ -11,3 +11,9 @@
 The user begins by opening up their terminal.  Here they type in "node index.js".
 
 ![This is the node index.js picture](./images/2.png)
+
+Next the user will be prompted with a series of questions as to a name, an employee id and a email address.
+
+![this is the questions picture](./images/3.png)
+
+
