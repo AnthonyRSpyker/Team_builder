@@ -93,7 +93,7 @@ function engineer(engineers){
         <br>
         <a> ID: ${engineers[i].id} </a><br>
         <a href="mailto:${engineers[i].email} class="card-link">Send an Email</a><br>
-        <a href="https://github.com/${engineers[i].github}" class="card-link">${engineers[i].github}</a><br>
+        <a href="https://github.com/${engineers[i].github}" class="card-link">http://github.com/${engineers[i].github}</a><br>
         </div>
         </div>`
     }
