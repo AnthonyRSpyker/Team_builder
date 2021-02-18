@@ -24,11 +24,25 @@ The user will then be prompt if they have any more employees they want to enter.
 
 ![this is an image of the engineer info](./images/5.png)
 ![more of the same](./images/6.png)
+Below we see the info for the engineer being entered.  
 ![more of the same](./images/7.png)
+In the following images all of the info has been entered and we have decided to no longer enter any more info so the user selects 'no' to render the page.
 ![more of the same](./images/8.png)
 Below we see the html that was dynamically rendered from the end of the infromation request.
 ![more of the same](./images/9.png)
 Finally we see the dynamically rendered web page from the html.
 ![more of the same](./images/10.png)
+
+## Technologies used
+  This is fully integrated using npm inquirer and node.js.  The interfaces were created using bootstrap as well some of the images used were taken from font Awesome.  
+  
+## Moving Forward
+  In the future we would like to see that this site has more at work capabilities like possibly be turned into a time clock and storage for hours of employess.
+  
+## Contributions
+  This site was independently created but if there is any wish to add to it, forking is welcome and all push requests will be considered.
+  
+  
+  Thank you for checking out my page!
 
 
