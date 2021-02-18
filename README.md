@@ -10,4 +10,4 @@
   
 The user begins by opening up their terminal.  Here they type in "node index.js".
 
-![This is the node index.js picture]{./images/Screen Shot 2021-02-17 at 10.10.45 PM.png}
+![This is the node index.js picture]{./images/1.png}
