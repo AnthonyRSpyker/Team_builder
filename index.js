@@ -72,7 +72,7 @@ function manager(managers){
         <h6 class="card-subtitle mb-2"><i class="fas fa-mug-hot"></i> Mananger</h6><br>
         <br>
         <a> ID: ${managers[i].id} </a><br>
-        <a href="${managers[i].email}" class="card-link">${managers[i].email}</a><br>
+        <a href="mailto:${managers[i].email}" class="card-link">Send an Email</a><br>
         <a> Office Number: ${managers[i].officeNumber}</a><br>
         </div>
         </div>`
@@ -92,7 +92,7 @@ function engineer(engineers){
         <h6 class="card-subtitle mb-2"><i class="fas fa-mug-hot"></i> Engineer</h6><br>
         <br>
         <a> ID: ${engineers[i].id} </a><br>
-        <a href="#" class="card-link">${engineers[i].email}</a><br>
+        <a href="mailto:${engineers[i].email} class="card-link">Send an Email</a><br>
         <a href="https://github.com/${engineers[i].github}" class="card-link">${engineers[i].github}</a><br>
         </div>
         </div>`
@@ -109,7 +109,7 @@ function intern(interns){
         <h6 class="card-subtitle mb-2"><i class="fas fa-mug-hot"></i> Intern</h6><br>
         <br>
         <a> ID: ${interns[i].id} </a><br>
-        <a href="${interns[i].email}" class="card-link">${interns[i].email}</a><br>
+        <a href="mailto:${interns[i].email}" class="card-link">Send an Email</a><br>
         <a> School: ${interns[i].school} </a><br>
         </div>
         </div>`
